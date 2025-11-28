@@ -18,3 +18,7 @@ print(df.isnull().sum())
 profile=ProfileReport(df)
 profile.to_file(output_file="Movie.html")
 
+print(df.describe())
+
+
+
